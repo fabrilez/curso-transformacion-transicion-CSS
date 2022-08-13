@@ -1,0 +1,38 @@
+a:link {
+    color: #138D75;
+}
+
+ a:visited {
+    color: #F1948A ; 
+} 
+
+a:hover {
+    background-color: #A2D9CE ;
+}
+
+p:not(.maravillas) {
+    color: #2980B9 
+}
+
+.container div:nth-child(1) {
+    background-color: #34495E;
+    width: fit-content;
+}
+form input:not(.input3) {
+    cursor: pointer;
+}
+
+.input1:focus {
+    background-color: #F4D03F;
+}
+
+.input2:active {
+    background-image: linear-gradient(135deg, #f34017 40%, #fc894d);
+    color: white;
+    border: none;
+}
+
+input3:disabled {
+    background-color: #ccc;
+
+}
