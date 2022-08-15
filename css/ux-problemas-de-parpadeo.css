@@ -1,0 +1,18 @@
+.container {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.item {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 50%;
+
+}
+
+.container:hover .item {
+    transform: translateY(-15px);
+}
