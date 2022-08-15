@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    
+}
+
+html {
+    font-size: 62.5%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.nav li {
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 20rem;
+    
+}
+
+.nav > li:nth-child(2){
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.nav li > ul {
+    display: block;
+    position: absolute;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 400ms;
+    transition-delay: 300ms;
+}
+
+
+
+
+.nav li > ul {
+    background-color: whitesmoke;
+    padding: 0;
+}
+
+.nav li:hover > ul {
+    transform: scaleY(1);
+    transition: transform 400ms;
+    transform-origin: top;
+    transition-delay: 300ms;
+}
+
+
+
+.nav li:hover {
+    background-color: springgreen;
+    
+}
+
+.second {
+    position: relative;
+    top: 60px;
+    left: 530px;
+    
+}
+
+.third {
+    position: relative;
+    top: 94px;
+    left: 130px;
+    
+}
+
+
+
